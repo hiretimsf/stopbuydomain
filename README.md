@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛑 Stop Buying Domain You Stupid
 
-## Getting Started
+[![Deployed on Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://stopbuydomain.com)
+[![Next.js 15](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 
-First, run the development server:
+A brutal reality check for developers who collect domains like Pokémon cards. This app generates a virtual "receipt" of your domain-buying addiction, reminding you exactly how much money is sitting in a digital graveyard.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Project Preview](/public/images/photo.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Virtual Receipt Generator**: A detailed breakdown of your unused domains and their total cost.
+- **Premium Aesthetics**: High-end noise textures, scanning animations, and a sleek monochrome design.
+- **Dynamic Interactions**: Framer Motion powered layered layout with interactive overlapping effects.
+- **SEO Optimized**: Fully configured metadata, JSON-LD structured data, and OpenGraph tags for viral sharing.
+- **Next.js 15 & React 19**: Built with the latest tech stack using the App Router and modern React patterns.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Technical Details
 
-## Learn More
+- **Framework**: [Next.js 15](https://nextjs.org/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Typography**: IBM Plex Mono & Roboto
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Node.js 18.x or later
+- npm / yarn / pnpm
 
-## Deploy on Vercel
+### Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hiretimsf/stopbuydomain.git
+   cd stopbuydomain
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📦 Deployment
+
+The easiest way to deploy this project is via [Vercel](https://vercel.com).
+
+1. Push your code to GitHub.
+2. Link your repository to Vercel.
+3. Vercel will automatically detect Next.js and deploy your app.
+
+## 🤝 Contributing
+
+This project is a labor of love (and self-reflection). Feel free to submit a PR or open an issue if you have ideas on how to make the reality check even more brutal.
+
+## 📜 License
+
+MIT License - feel free to use this responsibly (or use the money you saved to actually ship something).
+
+---
+
+Built with 🛑 by [Tim](https://hiretimsf.com)
