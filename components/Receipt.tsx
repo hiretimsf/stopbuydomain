@@ -62,9 +62,20 @@ export const Receipt = () => {
                     {DOMAINS.map((d, i) => (
                         <div key={i} className="flex justify-between items-start gap-4 uppercase group/item">
                             <div className="flex flex-col min-w-0">
-                                <span className={`text-xs font-bold truncate ${d.status === 'ACTIVE' ? 'text-zinc-900' : 'text-zinc-700 transition-colors group-hover/item:text-zinc-900'}`}>
-                                    {d.name}
-                                </span>
+                                {d.name === 'hiretimsf.com' ? (
+                                    <a 
+                                        href="https://hiretimsf.com" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        className="text-xs font-bold truncate text-blue-600 underline hover:text-blue-800 transition-colors"
+                                    >
+                                        {d.name}
+                                    </a>
+                                ) : (
+                                    <span className={`text-xs font-bold truncate ${d.status === 'ACTIVE' ? 'text-zinc-900' : 'text-zinc-700 transition-colors group-hover/item:text-zinc-900'}`}>
+                                        {d.name}
+                                    </span>
+                                )}
                                 {d.status === 'ACTIVE' && (
                                     <span className="text-xs text-green-600 font-black tracking-tighter mt-0.5">
                                         * Built & Deployed
