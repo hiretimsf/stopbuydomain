@@ -14,6 +14,7 @@ import {
 import type { HeadType } from "@/types";
 import { getBaseUrl } from "@/lib/utils";
 import type { Person, WebSite, WithContext } from "schema-dts";
+import { Analytics } from "@vercel/analytics/next"
 
 // Generates JSON-LD structured data for the website
 function getWebSiteJsonLd(): WithContext<WebSite> {
@@ -214,6 +215,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased" suppressHydrationWarning>
         {children}
+        <Analytics />
       </body>
     </html>
   );
