@@ -1,9 +1,9 @@
 import { getBaseUrl } from "@/lib/utils";
 
 export const SITE_INFO = {
-  name: "Stop Buying Domain You Stupid",
-  url: "https://stopbuydomain.com",
-  alternateName: "Stop Buying Domain",
+  name: "Stop Buy Domain | You Stupid",
+  url: "https://stopbuydomain.vercel.app",
+  alternateName: "Stop Buy Domain",
 };
 
 export default SITE_INFO;

@@ -1,4 +1,4 @@
-# 🛑 Stop Buying Domain You Stupid
+# 🛑 Stop Buy Domain | You Stupid
 
 [![Deployed on Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://stopbuydomain.com)
 [![Next.js 15](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
